@@ -1,0 +1,225 @@
+:root{
+    scroll-behavior: auto;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+.mainOverlay{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: rgba(214, 46, 51, 0.6);
+}
+.open{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    height: 100vh;
+    width: 250px;
+    background-color: #414658;
+    z-index: 1;
+}
+.closebtn{
+    margin-left: 190px;
+    cursor: pointer;
+}
+.open ul{
+    list-style: none;
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+.open ul li  a{
+    padding: 20px 15px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    transition:all 0.3s;
+    margin-bottom:10px;
+}
+.open  a:hover {
+    color: rgba(214, 46, 51, 0.4)!important;
+}
+.party h2,p{
+    text-align: center;
+}
+.party h2{
+    margin-top: 200px;
+    font-size: 60px;
+}
+.party span{
+    position: absolute;
+    left:2%;
+    
+}
+/* singers */
+
+.content{
+  background-color: #E68285;
+  text-align: center;
+  color: white;
+
+}
+.sing{
+    padding: 7px;
+    cursor: pointer;
+}
+/* @media screen and (max-width: 500px){
+    .sing{
+        padding: 3px;
+    }
+} */
+@media screen and (max-width:979px) and (min-width:768px) {
+    .sing {
+        /* width: 33.33%; */
+        padding: 40px;
+    }
+    
+}
+@media screen and (max-width:767px) and (min-width:500px) {
+    .sing {
+        padding: 50px;    }
+    
+}
+@media screen and (max-width:499px) {
+    .sing {
+        padding: 60px;    }
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+.singers .par{
+    display: none;
+    background-color: #CCCCCC;
+    color: black;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.content{
+    width: 50%;
+    margin:90px auto 90px auto;
+}
+
+/* duaration */
+
+.duration{
+    position: relative;
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 60px;
+   
+}
+
+    
+.durationOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+    display: flex;
+    align-items: center;
+    }
+    .border{
+        padding: 50px 0px;
+        text-align: center;
+        color: white;
+    }
+
+    @media screen and (max-width:767px) and (min-width:500px) {
+        .duration{
+            height: 80vh; 
+        }
+        .border{
+            padding: 20px 0px;
+        }
+    }
+    @media screen and (max-width:499px) {
+        .duration{
+            height: 100vh; 
+        }
+        .border{
+            padding: 10px 0px;
+        }
+        }
+
+/* contact */
+.contact{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.myContainer{
+    padding: 0 50px;
+}
+.contact-icons .hello{
+  color: #D94539;
+}
+.contact p , span{
+    color: #777;
+}
+.contact-icons p{
+    margin-top: 50px;
+}
+.head h2 , .information h4{
+    color: #444;
+}
+.social-icons{
+    margin-top: 50px;
+}
+.social-icons i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-icons i:hover{
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+form input , textarea{
+    margin-bottom: 20px;
+    border-radius: 0!important;
+}
+ form textarea {
+    height: 200px;
+    resize: vertical;
+}
+.hello1{
+    color: #D94539;
+}
+.textarea{
+    resize: none;
+}
+.send{
+    padding:10px 20px;
+    background-color: #D62E33;
+    color: white;
+    border: none;
+}
